@@ -27,3 +27,12 @@ func main() {
 	password := "234457892" // type is inferred
 	fmt.Println("Auth: Basic", username+":"+password)
 }
+
+// CONST
+// 2-types:typed, untyped [nothing to think about, works same as per the name.]
+
+//OUTPUT:
+//3-types:print, println, printf [works same as C.]
+
+//Formatting Verbs
+// %v = value, %T = type, %% = %_sign,
