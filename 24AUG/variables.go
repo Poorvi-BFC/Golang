@@ -1,5 +1,6 @@
 //go:build variables
 
+// in go, var are passed by value not reference.
 package main
 
 import (
