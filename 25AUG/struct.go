@@ -33,3 +33,5 @@ func main() {
 	canSendMessage(messageToSend{})
 	fmt.Println(canSendMessage(messageToSend{}))
 }
+
+//capital letter in struct name makes it public and accessible from other packages. Lowercase letter makes it private and accessible only within the package.
