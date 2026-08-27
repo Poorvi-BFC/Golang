@@ -24,3 +24,11 @@ func returnFunc(a int, b int) (result int) {
 	result = a + b
 	return result
 }
+
+// Gaurd clause is a programming pattern that is used to simplify the code by handling edge cases or exceptional conditions at the beginning of a function, rather than nesting the main logic of the function inside multiple if statements. This can make the code easier to read and understand, as it reduces the amount of indentation and makes it clear what conditions must be met for the main logic to execute.
+
+// go can return multiple return values from a function. The return type is specified after the parameter list.
+
+func multipleReturnFunc() (string, string, string) { // multiple return function creation.
+	return "golang", "java", "python" // multiple return values
+}
