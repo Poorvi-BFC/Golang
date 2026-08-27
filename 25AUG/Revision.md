@@ -19,3 +19,4 @@ When you're super concerned about performance and memory usage.
 * fmt.Printf() - Prints a formatted string to standard out.
 * fmt.Sprintf() - Returns the formatted string
   
+# Go does not allow a multi-value function result to be combined with another argument

@@ -12,10 +12,11 @@ func myFunc(fname string) { //func FunctionName(param1 type, param2 type){} // f
 //When a parameter is passed to the function, it is called an argument. So, from the example above: fname is a parameter, while "Alice" is an argument.
 
 func main() {
-	myName()                     // function calling.
-	myFunc("Alice")              // function calling with argument.
-	result := returnFunc(10, 11) // return function calling with argument.
-	fmt.Println("Result:", result)
+	// myName()                     // function calling.
+	// myFunc("Alice")              // function calling with argument.
+	// result := returnFunc(10, 11) // return function calling with argument.
+	//fmt.Println("Result:", result)
+	fmt.Println(multipleReturnFunc()) // multiple return function calling.
 }
 
 //Note: Functions can return values. The return type is specified after the parameter list. For example, func add(a int, b int) int { return a + b } is a function that takes two integers as parameters and returns an integer.
