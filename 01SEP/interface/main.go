@@ -5,7 +5,7 @@ import "fmt"
 // interface: defines a set of method rules any type with the same method can use it. here, area requires a method named area() float64 (note: spelled area, not ares)
 
 type area interface {
-	area() float64
+	area() float64 // method — has (), takes no args, returns a string
 }
 
 // circle is a custom type with one field
